@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id=":Qg2]Fux-@m~?T-vm_.!">Player</variable><variable type="KIND_SpriteKind" id="40YxzVIS[ovA{d^mhr[p">Projectile</variable><variable type="KIND_SpriteKind" id="d+yHQqa#LNkFg:Yc1N+!">Food</variable><variable type="KIND_SpriteKind" id=",@%5{WoPQKN4-y*K~NGL">Enemy</variable><variable id="#r_(JZYVYPo7Z/U+AWBl">mySprite</variable><variable id="1I40hpy]-nW@FT6c=cuh">item</variable><variable id="O*U6pLlzL]E$nd?jm|87">rachetta verde</variable><variable id="QOdLYg?o7=G}Gj@|)^%Q">rachetta verde 2</variable></variables><block type="function_definition" id="9z:Ca~AsIpq}%cM_qd`-" x="70" y="-150"><mutation name="creo rahetta destra" functionid="4Giu.;NzfCAB/vCqXzRj"></mutation><field name="function_name">creo rahetta destra</field><statement name="STACK"><block type="variables_set" id="DL!DaU}#KMxz7`pN!4@H"><field name="VAR" id="QOdLYg?o7=G}Gj@|)^%Q">rachetta verde 2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="qar:|!gBh9K,,`8}h[BT"><value name="img"><shadow type="screen_image_picker" id="_N]sn+KJv|~ICJaiSwhE"><field name="img">img`
+1 1 1 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 3 3 1 
+1 1 1 1 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"_N]sn+KJv|~ICJaiSwhE"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="5J9dM7w=ick:DnkLBmf6"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="I9Um|I_at4$|0YhyzD8J"><value name="sprite"><block type="variables_get" id="wFKbQ5+(`K+d4s(xz8l]"><field name="VAR" id="QOdLYg?o7=G}Gj@|)^%Q">rachetta verde 2</field></block></value><value name="x"><shadow type="positionPicker" id="Re_E67:]pz,Ji.iA$}Ls"><field name="index">150</field></shadow></value><value name="y"><shadow type="positionPicker" id="lMFi}!S-?od{ZmEN^}}H"><field name="index">60</field></shadow></value></block></next></block></statement></block><block type="function_definition" id="=$)9_eJp88NSKUzlX~j$" x="730" y="-170"><mutation name="creo rachetta sinistra" functionid="l8B8Vh}s;Oj?hwJktGwe"></mutation><field name="function_name">creo rachetta sinistra</field><statement name="STACK"><block type="variables_set" id="%QA4yw)Ct`6jNu2|oMj["><field name="VAR" id="O*U6pLlzL]E$nd?jm|87">rachetta verde</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="s.b})ktL]05V?s{Rws,:"><value name="img"><shadow type="screen_image_picker" id="#o|RmPZZI$c7BmA(AF_t"><field name="img">img`
+1 1 1 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 7 7 1 
+1 1 1 1 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"#o|RmPZZI$c7BmA(AF_t"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="dW1e|G!@92I/(~g;CT~("><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="_}}(PXx^`cP4q5Ku!9;z"><value name="sprite"><block type="variables_get" id="4vV#f%=X**blRg!^/dVB"><field name="VAR" id="O*U6pLlzL]E$nd?jm|87">rachetta verde</field></block></value><value name="x"><shadow type="positionPicker" id="oxV(W{/vY3Kc!TO*j57E"><field name="index">10</field></shadow></value><value name="y"><shadow type="positionPicker" id="!X5l]$7_=a4x/h#5MQO;"><field name="index">60</field></shadow></value><next><block type="game_control_sprite" id="CSZi!v|d0t8sf#Psd^qP"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="J;spf*)I{./]|%v,}gzA"><field name="VAR" id="O*U6pLlzL]E$nd?jm|87">rachetta verde</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="5*w.K0Q;*l(6AyC|5:)8"><field name="speed">0</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="fHab%8;.nof4]LBYFl9W"><field name="speed">150</field></shadow></value><next><block type="spritesetsetstayinscreen" id="dco4+59x~h)UcVgp)0ZV"><value name="sprite"><block type="variables_get" id="`XX67|[eD*@O}#egsjDf"><field name="VAR" id="O*U6pLlzL]E$nd?jm|87">rachetta verde</field></block></value><value name="on"><shadow type="toggleOnOff" id="{R*:2dk]1}CLzE*[tWpg"><field name="on">true</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="i5/+wMk-jM8`5p~=V`*n" x="50" y="130"><statement name="HANDLER"><block type="function_call" id="JOJyhuH/,``t]1Xg!*4O"><mutation name="creo rachetta sinistra" functionid="l8B8Vh}s;Oj?hwJktGwe"></mutation></block></statement></block></xml>
